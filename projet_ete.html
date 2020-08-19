@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="projet.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
+    <script src="projet_ete.js"></script>
+
+    <script src="https://kit.fontawesome.com/0c87a70838.js"></script>
+    <title>Title</title>
+</head>
+<body>
+<header>
+
+    <div class="tab">
+        <div class="message">
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#diapo">diapo</a></li>
+                <li><a href="#info">information</a></li>
+            </ul>
+        </div>
+
+
+    </div>
+
+</header>
+<div class="main">
+<div class="message">
+    <H1>Voyagez <br/> Aujourdhui</H1>
+    <a href="#">
+        <button>En savoir plus<i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+    </a>
+</div>
+</div>
+<div class="destination" id="accueil">
+    <div class="title"><H1>Nos destinations</H1></div>
+    <div class="message">
+
+        <div class="both">
+        <div class="left">
+            <div class="fix">
+                <div class="point"></div>
+                <h2>voici nos destinations a explorer</h2>
+            </div>
+
+            <div class="separator"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <ul>
+                <il>France</il>
+                <il>Italie</il>
+                <il>Allemagne</il>
+                <il>Roumanie</il>
+                <il>Esapagne</il>
+            </ul>
+        </div>
+
+        <div class="right">
+            <img src="image/accueil.png" alt="">
+        </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        let countries =
+            [
+                {
+                    "name":"France",
+                    "population":67000000
+                }
+            ]
+        console.log(JSON.parse(countries)[0].name)
+
+    </script>
+</div>
+<div id="app"></div>
+<div class="background" id="diapo">
+    <div class="slideshow">
+        <div class="slideshow-items">
+            <div class="slideshow-item-texts">
+                <h5>France, PARIS</h5>
+                <p>Paris, capitale de la France, est une grande ville européenne et un centre mondial d'art, de mode, de gastronomie et de culture.</p>
+            </div>
+            <img src="image/france1.jpg" alt="">
+        </div>
+        <div class="slideshow-items">
+            <div class="slideshow-item-texts">
+                <h5>France, PARIS</h5>
+                <p>Paris, capitale de la France, est une grande ville européenne et un centre mondial d'art, de mode, de gastronomie et de culture.</p>
+            </div>
+            <img src="image/france4.jpeg" alt="">
+        </div>
+        <div class="slideshow-items">
+            <div class="slideshow-item-texts">
+                <h5>France, PARIS</h5>
+                <p>Paris, capitale de la France, est une grande ville européenne et un centre mondial d'art, de mode, de gastronomie et de culture.</p>
+            </div>
+            <img src="image/france5.jpg" alt="">
+        </div>
+
+    </div>
+</div>
+
+<div class="background">
+    <div class="slideshow">
+        <div class="slideshow-items">
+            <div class="slideshow-item-texts">
+                <h5>ITALIE, Rome</h5>
+                <p> Rome est la capitale et une commune spéciale d'Italie ainsi que la capitale de la région du Latium.</p>
+            </div>
+            <img src="image/Italie1.jpg" alt="">
+        </div>
+        <div class="slideshow-items">
+            <div class="slideshow-item-texts">
+                <h5>ITALIE, ROME</h5>
+                <p> Rome est la capitale et une commune spéciale d'Italie ainsi que la capitale de la région du Latium.</p>
+            </div>
+            <img src="image/italie2.jpg" alt="">
+        </div>
+        <div class="slideshow-items">
+            <div class="slideshow-item-texts">
+                <h5>ITALIE, ROME</h5>
+                <p> Rome est la capitale et une commune spéciale d'Italie ainsi que la capitale de la région du Latium.</p>
+            </div>
+            <img src="image/italie3.jpg" alt="">
+        </div>
+
+    </div>
+</div>
+<div class="background">
+    <div class="slideshow">
+        <div class="slideshow-items">
+            <div class="slideshow-item-texts">
+                <h5>ALLEMAGNE, BERLIN</h5>
+                <p>Berlin Allemagne est la capitale et la plus grande ville d'Allemagne en superficie et en population.Ses 3769495 habitants (2019) en font la ville la plus peuplée de l'Union européenne.</p>
+            </div>
+            <img src="image/germany1.jpg" alt="">
+        </div>
+        <div class="slideshow-items">
+            <div class="slideshow-item-texts">
+                <h5>ALLEMAGNE, BERLIN</h5>
+                <p>Berlin Allemagne est la capitale et la plus grande ville d'Allemagne en superficie et en population.Ses 3769495 habitants (2019) en font la ville la plus peuplée de l'Union européenne.</p>
+            </div>
+            <img src="image/germany2.jpg" alt="">
+        </div>
+        <div class="slideshow-items">
+            <div class="slideshow-item-texts">
+                <h5>ALLEMAGNE, BERLIN</h5>
+                <p>Berlin Allemagne est la capitale et la plus grande ville d'Allemagne en superficie et en population.Ses 3769495 habitants (2019) en font la ville la plus peuplée de l'Union européenne.</p>
+            </div>
+            <img src="image/germany3.jpg" alt="">
+        </div>
+
+    </div>
+</div>
+<div class="background">
+    <div class="slideshow">
+        <div class="slideshow-items">
+            <div class="slideshow-item-texts">
+                <h5>ROUMANIE, BUCAREST</h5>
+                <p>its beautifullllllllllllllllllllllllllllllllllllllllllllllllllllLa Roumanie est un pays du sud-est de l'Europe connu pour la région boisée de Transylvanie, entourée par les montagnes des Carpates.
+            </div>
+            <img src="image/roumanie1.jpg" alt="">
+        </div>
+        <div class="slideshow-items">
+            <div class="slideshow-item-texts">
+                <h5>ROUMANIE, BUCAREST</h5>
+                <p>La Roumanie est un pays du sud-est de l'Europe connu pour la région boisée de Transylvanie, entourée par les montagnes des Carpates.</p>
+            </div>
+            <img src="image/roumanie2.jpg" alt="">
+        </div>
+        <div class="slideshow-items">
+            <div class="slideshow-item-texts">
+                <h5>ROUMANIE, BUCAREST</h5>
+                <p>La Roumanie est un pays du sud-est de l'Europe connu pour la région boisée de Transylvanie, entourée par les montagnes des Carpates.</p>
+            </div>
+            <img src="image/roumanie3.jpg" alt="">
+        </div>
+
+    </div>
+</div>
+<div class="background">
+    <div class="slideshow">
+        <div class="slideshow-items">
+            <div class="slideshow-item-texts">
+                <h5>ESPAGNE, MADRID</h5>
+                <p>Madrid est la capitale et la ville la plus peuplée d'Espagne. La ville compte près de 3,3 millions d'habitants et une population de la région métropolitaine d'environ 6,5 millions.</p>
+            </div>
+            <img src="image/madrid1.jpg" alt="">
+        </div>
+        <div class="slideshow-items">
+            <div class="slideshow-item-texts">
+                <h5>ESPAGNE, MADRID</h5>
+                <p>Madrid est la capitale et la ville la plus peuplée d'Espagne. La ville compte près de 3,3 millions d'habitants et une population de la région métropolitaine d'environ 6,5 millions.</p>
+            </div>
+            <img src="image/madrid.jpg" alt="">
+        </div>
+        <div class="slideshow-items">
+            <div class="slideshow-item-texts">
+                <h5>ESPAGNE, MADRID</h5>
+                <p>Madrid est la capitale et la ville la plus peuplée d'Espagne. La ville compte près de 3,3 millions d'habitants et une population de la région métropolitaine d'environ 6,5 millions.</p>
+            </div>
+            <img src="image/madrid3.jpg" alt="">
+        </div>
+
+    </div>
+</div>
+</div>
+
+<div id="barre"></div>
+
+</body>
+</html>
